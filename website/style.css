@@ -1,0 +1,265 @@
+/* .color1 { #fff4ce };
+.color2 { #d0deb8 };
+.color3 { #ffa492 };
+.color4 { #ff7f81 };
+.color5 { #ff5c71 }; */
+.color {
+    color: #d0deb8;
+    color: #ffa492;
+    color: #ff7f81;
+    color :#ff5c71;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background: #ff5c71;
+}
+
+.container {
+    max-width: 1080px;
+    background: #ff4e66;
+    box-shadow: 0 0 4px rgb(68, 68, 68);
+    margin: auto;
+}
+
+.tico {
+    color: white;
+    padding: 8px;
+    border-top: 2px dotted #ffa492;
+}
+
+.tico section {
+    display: flex;
+}
+
+.tico .content {
+    padding: 8px;
+    padding-top: 0;
+    text-align: justify;
+    width: 100%;
+}
+
+.tico .profile img {
+    border-radius: 20px;
+}
+
+.tico .post-options-bar {
+    color: #ffb9ab;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .tico .content-text {}
+*/
+.interactions {
+    display: flex;
+    align-items: flex-end;
+}
+
+.interaction {
+    background: #ffa492;
+    border: none;
+    font-size: 16px;
+    margin: 5px 3px;
+    padding: 5px;
+}
+
+.interactions .active {
+    border: 2px dotted white;
+    background-color: #ff4e66;
+    padding: 3px;
+}
+
+.interaction a {
+    color: white;
+    text-decoration: none;
+}
+
+.date {
+    align-self: center;
+    margin-left: auto;
+}
+
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background: #ff7f81;
+    box-shadow: 0 0 4px rgb(68, 68, 68);
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: end;
+}
+
+header nav ul a {
+    color: white;
+    display: block;
+    font-size: 18px;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+
+/* .header .profile {
+    padding-right: 10px;
+} */
+
+.logo {
+    /* padding-left: 10px; */
+    font-size: 35px;
+    color: white;
+}
+
+
+/* #############################################
+/* ######### opções dos três pontinhos #########
+/* ############################################# */
+
+.post-options ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.post-options ul li{
+    padding: 5px;
+}
+
+.post-options a {
+    text-decoration: none;
+    color: white;
+}
+
+.post-options a:hover {
+    text-decoration: underline;
+}
+
+/* ###################################
+/* ############# EDITOR ##############
+/* ###################################
+*/
+
+
+.post-editor form {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.editor {
+    display: block;
+    border: none;
+    width: 800px;
+    resize: inherit;
+    border-left: 5px dotted red;
+    padding: 10px;
+}
+
+.ticoar {
+    display: block;
+    padding: 0 10px;
+    height: 65px;
+    border-radius: 0;
+    background: #ff4e66;
+    border: 2px outset #ff5c71;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.ticoar:active {
+    border: 2px inset #ff5c71;
+}
+
+/* ###################################
+/* ###### LOGIN E CADASTRAR ##########
+/* ###################################
+*/
+
+.login-button,
+.register-button {
+    background-color:#ffa492;
+    border: none;
+    box-shadow: 0 0 3px gray;
+    color: black;
+    padding: 6px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.login-button:hover,
+.register-button:hover {
+    background-color:#ffb9ab;
+}
+
+.login-button a,
+.register-button a {
+    color: inherit;
+    text-decoration: inherit;
+    color: white;
+}
+
+/* ###################################
+/* ###### FOOTER #####################
+/* ###################################
+*/
+
+.footer, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer {
+    background-color: #ff5c71;
+}
+
+/* ###################################
+/* ############# FORM LOGIN ##########
+/* ###################################
+*/
+
+.login {
+    width: 500px;
+    margin: 100px auto;
+}
+
+.login .submit {
+    border-radius: 0;
+    border: 2px outset #ff7f81;
+    background: #ff5c71;
+    color: white;
+    padding: 6px 0;
+}
+
+.login .submit:active {
+    border: 2px inset #ff7f81;
+}
+
+.login input {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+
+/* ############################
+/* ############################
+*/
